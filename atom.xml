@@ -4,7 +4,7 @@
   <title><![CDATA[errands.io]]></title>
   <link href="http://santthosh.github.io/atom.xml" rel="self"/>
   <link href="http://santthosh.github.io/"/>
-  <updated>2013-07-12T23:53:23-07:00</updated>
+  <updated>2013-07-13T00:37:55-07:00</updated>
   <id>http://santthosh.github.io/</id>
   <author>
     <name><![CDATA[Santthosh]]></name>
@@ -12,5 +12,52 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[hello world]]></title>
+    <link href="http://santthosh.github.io/blog/2013/07/12/hello-world/"/>
+    <updated>2013-07-12T23:58:00-07:00</updated>
+    <id>http://santthosh.github.io/blog/2013/07/12/hello-world</id>
+    <content type="html"><![CDATA[<p>I have been a native application developer (iOS, Android, Mac, .NET, Java) for some time now, high time I start focusing on web technologies, especially mobile web. I know what you are thinking, but here is my strategy</p>
+
+<blockquote><p>Continuous effort - not strength or intelligence - is the key to unlocking our potential.</p><footer><strong>Winston Churchill</strong></footer></blockquote>
+
+
+<p></p>
+
+<p>This is going to be my play ground for web technologies, I&rsquo;m going to share my thoughts all along the way, feel free to comment, shout out, scream, scold or make fun</p>
+
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+</pre></td><td class='code'><pre><code class='html'><span class='line'><span class="cp">&lt;!DOCTYPE html&gt;</span>
+</span><span class='line'><span class="nt">&lt;html&gt;</span>
+</span><span class='line'>  <span class="nt">&lt;head&gt;</span>
+</span><span class='line'>      <span class="nt">&lt;script&gt;</span>
+</span><span class='line'>          <span class="kd">function</span> <span class="nx">helloWorldFunction</span><span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>              <span class="nx">alert</span><span class="p">(</span><span class="s2">&quot;Hello World&quot;</span><span class="p">);</span>
+</span><span class='line'>          <span class="p">}</span>
+</span><span class='line'>      <span class="nt">&lt;/script&gt;</span>
+</span><span class='line'>  <span class="nt">&lt;/head&gt;</span>
+</span><span class='line'>  <span class="nt">&lt;body&gt;</span>
+</span><span class='line'>      <span class="nt">&lt;button</span> <span class="na">onClick=</span><span class="s">&quot;helloWorldFunction()&quot;</span><span class="nt">&gt;</span>Try Me<span class="nt">&lt;/button&gt;</span>
+</span><span class='line'>  <span class="nt">&lt;/body&gt;</span>
+</span><span class='line'><span class="nt">&lt;/html&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Cheers, Santthosh</p>
+]]></content>
+  </entry>
   
 </feed>
