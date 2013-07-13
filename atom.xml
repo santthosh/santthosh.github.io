@@ -4,7 +4,7 @@
   <title><![CDATA[errands.io]]></title>
   <link href="http://santthosh.github.io/atom.xml" rel="self"/>
   <link href="http://santthosh.github.io/"/>
-  <updated>2013-07-13T05:54:41-07:00</updated>
+  <updated>2013-07-13T06:45:35-07:00</updated>
   <id>http://santthosh.github.io/</id>
   <author>
     <name><![CDATA[Santthosh]]></name>
@@ -27,7 +27,7 @@
 
 <p>This is going to be my play ground for web technologies, I&rsquo;m going to share my thoughts all along the way, feel free to comment, shout out, scream, scold or make fun</p>
 
-<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 <span class='line-number'>4</span>
