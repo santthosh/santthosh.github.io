@@ -29,7 +29,7 @@ I have pieced in a project that uses his deferred implementation with angular-lo
 ```
 You can play around with the [working prototype here](http://angular-cached-demo.herokuapp.com/#/). With all the awesomeness of AngularJS, changes to your services will be trivial and there won't be any changes to your controllers. Also here is a quick demo of the experience
 
-{% video http://s02.savefrom.net/media/883667518/a16b4d970741351bf9119db0b26f4add/angular-cached-demo.mp4 640 320 http://localhost:4000/images/angular-cached-demo.png %}
+{% video http://s02.savefrom.net/media/883667518/a16b4d970741351bf9119db0b26f4add/angular-cached-demo.mp4 640 320 http://errands.io/images/angular-cached-demo.png %}
 
 
 
