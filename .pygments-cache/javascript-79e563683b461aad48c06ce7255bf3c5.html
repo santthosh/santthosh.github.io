@@ -1,0 +1,15 @@
+<div class="highlight"><pre>      <span class="nx">posts</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="nx">request</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">response</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">localStorageService</span><span class="p">.</span><span class="nx">add</span><span class="p">(</span><span class="s1">&#39;recent&#39;</span><span class="p">,</span><span class="nx">response</span><span class="p">);</span>       <span class="c1">// here is where we add the server response to local storage</span>
+        <span class="nx">deferred</span><span class="p">.</span><span class="nx">resolve</span><span class="p">(</span><span class="nx">response</span><span class="p">);</span>
+        <span class="nx">$rootScope</span><span class="p">.</span><span class="nx">loading</span> <span class="o">=</span> <span class="kc">false</span><span class="p">;</span>
+      <span class="p">});</span>
+
+      <span class="k">if</span><span class="p">(</span><span class="nx">cachingEnabled</span> <span class="o">===</span> <span class="s1">&#39;YES&#39;</span><span class="p">)</span> <span class="p">{</span>
+        <span class="kd">var</span> <span class="nx">response</span> <span class="o">=</span> <span class="nx">localStorageService</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s1">&#39;recent&#39;</span><span class="p">);</span>
+        <span class="k">if</span><span class="p">(</span><span class="nx">response</span> <span class="o">!=</span> <span class="kc">undefined</span><span class="p">)</span>  <span class="p">{</span>
+          <span class="nx">deferred</span><span class="p">.</span><span class="nx">resolve</span><span class="p">(</span><span class="nx">response</span><span class="p">);</span>                       <span class="c1">// this is the deferred update magic, we use cached value from</span>
+        <span class="p">}</span>                                                   <span class="c1">// local storage to present data</span>
+      <span class="p">}</span>
+
+      <span class="k">return</span> <span class="nx">promise</span><span class="p">;</span>
+</pre></div>
