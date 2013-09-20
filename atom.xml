@@ -4,7 +4,7 @@
   <title><![CDATA[errands.io]]></title>
   <link href="http://santthosh.github.io/atom.xml" rel="self"/>
   <link href="http://santthosh.github.io/"/>
-  <updated>2013-09-20T14:37:57-07:00</updated>
+  <updated>2013-09-20T15:11:01-07:00</updated>
   <id>http://santthosh.github.io/</id>
   <author>
     <name><![CDATA[Santthosh]]></name>
@@ -55,7 +55,12 @@
 
 <p>You can play around with the <a href="http://angular-cached-demo.herokuapp.com/#/">working prototype here</a>. With all the awesomeness of AngularJS, changes to your services will be trivial and there won&rsquo;t be any changes to your controllers. Also here is a quick demo of the experience</p>
 
-<p><video width='640' height='320' preload='none' controls poster='http://errands.io/images/angular-cached-demo.png'><source src='http://s02.savefrom.net/media/883667518/a16b4d970741351bf9119db0b26f4add/angular-cached-demo.mp4' type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'></video></p>
+<div align="center">
+<iframe width="420" height="315" src="http://santthosh.github.io//www.youtube.com/embed/9HTKHMXxsjs" frameborder="0" allowfullscreen></iframe>
+</div>
+
+
+
 ]]></content>
   </entry>
   
@@ -99,6 +104,14 @@
 </span><span class='line'>      <span class="nt">&lt;button</span> <span class="na">onClick=</span><span class="s">&quot;helloWorldFunction()&quot;</span><span class="nt">&gt;</span>Try Me<span class="nt">&lt;/button&gt;</span>
 </span><span class='line'>  <span class="nt">&lt;/body&gt;</span>
 </span><span class='line'><span class="nt">&lt;/html&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Cheers, Santthosh</p>
+]]></content>
+  </entry>
+  
+</feed>
 </span></code></pre></td></tr></table></div></figure>
 
 
